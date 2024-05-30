@@ -40,7 +40,7 @@ header 영역 - 로고, 메인메뉴
     position: absolute;
     bottom: 16px;
     left: 40px;
-    font-family: 'Pretendard-ExtraLight';
+    font-family:'Pretendard-ExtraLight';
     font-size: 36px;
 }
 #navmenu {
