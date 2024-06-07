@@ -21,6 +21,12 @@ body {
 #navmenu {
     text-decoration: none;
     color: #0a0a96;
+    display: flex;
+    position: absolute;
+    bottom: 16px;
+    transform: translateX(-50%);
+    right: 40px;
+    padding-right: 10px;
 }
 
 /* -----------------------------------------------------------------------
