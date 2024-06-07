@@ -18,7 +18,7 @@ body {
     font-family: "Pretendard-ExtraLight";
     /* background-color: rgb(163, 247, 219); */
 }
-a {
+#navmenu {
     text-decoration: none;
     color: #0a0a96;
 }
@@ -143,12 +143,12 @@ body {
         justify-content: center;
     }
     #navmenu {
-        /* 네비게이션 메뉴를 가운데로 이동 */
-        left: 50%;
+        display: flex;
+        position: absolute;
+        bottom: 16px;
         transform: translateX(-50%);
-        bottom: 5px;
-        padding: 0;
-        justify-content: center;
+        right: 40px;
+        padding-right: 10px;
     }
     #main-container {
         width: 90%;
